@@ -28,7 +28,7 @@ public class Main {
         while (currentYearMin200 <= currentYearMax100) {
             currentYearMin200++;
             if (currentYearMin200 % 79 == 0) {
-                System.out.println(currentYearMin200 + " комента");
+                System.out.println(currentYearMin200 + " год когда пролетает комета");
             } else continue;
         }
     }
